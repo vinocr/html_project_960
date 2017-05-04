@@ -1,0 +1,80 @@
+/*style for the second webpage*/
+
+/* setting body style and use of google fonts*/
+body{
+	background:url(../images/foot.jpg) center fixed;
+	background-size:cover;
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:2;
+	font-family: 'Amaranth', sans-serif;
+}
+
+/*background set for the section part (i.e 960 grid)*/
+section{
+	background-image:url(../images/typebck.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-bottom:20px;
+}
+
+/*style for the h2 tag*/
+h2{
+	color:#e6e600;
+	text-shadow:2px 3px black;
+	font-size:28px;
+	padding-top:10px;
+}
+
+/*style for all images under these classes*/
+ .fic1 img,.fic2 img,.fic3 img,.fic4 img,.fic5 img{
+	height:200px;
+	padding-bottom:10px;
+}
+.more{
+	color:lightgreen;
+	text-shadow:1px 1px black;
+	font-size:18px;
+	margin-left:850px;
+	text-decoration:underline;
+}
+
+/* anchor links hignlighted when touched*/
+a:hover{
+background-color:grey;
+color:white;
+padding:3px;
+border-radius:10px;
+}
+
+/*alignment for para tag*/
+p{
+	text-align:center;
+	color:black;
+	margin-bottom:5px;
+}
+
+/*h4 tag alignments*/
+h4{
+	text-shadow:2px 2px green;
+	font-size:20px;
+	text-align:center;
+	color:White;
+}
+
+/*stylesheet for class buy*/
+.buy{
+	color:red;
+	background-color:black;
+	margin-left:80px;
+	border-radius:10px;
+	padding:3px;
+}
+
+/*color given when buy class is hovered*/
+.buy:hover{
+	background-color:#1affff;
+	color:black;
+}
+/*end of the style */
